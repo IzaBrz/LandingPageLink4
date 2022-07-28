@@ -1,0 +1,128 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background-color: #fff;
+    font-family: Arial,sans-serif;
+}
+.container
+{
+    margin: auto;
+	max-width: 1000px;
+    min-height: 60vh;
+    border: .5px solid #C1C1C1;
+    border-radius: 5px;
+}
+.header__logo-img
+{
+    max-height: 50px;
+    margin: 0;
+    padding: 10px;
+}
+.header__title
+{
+    color: #cd0084;
+    text-align: left;
+    margin: 10px;
+    padding: 0;
+}
+.offer-box
+{
+    display: flex;
+    justify-items: end;
+    padding: 10px;
+    margin: 0;
+}
+.offer-box-details,
+.offer-box-discount,
+.offer-box-form
+{
+    display: flex;
+    width: 40%;
+    max-height: 60%;
+    border: .5px solid #f2f2f2;
+    border-radius: 10px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.offer-box-details:hover,
+.offer-box-discount:hover,
+.offer-box-form:hover
+{
+    transform: scale(1.1);
+}
+.offer-box-details
+{
+    background-color: #501e82;
+    color: #fff;
+}
+.offer-box-details ul
+{
+    list-style: none;
+    padding: 0;
+    line-height: 1.8;
+    margin-top: 20px;
+    font-size: 15px;
+}
+.offer-detail i
+{
+    margin: 0;
+    padding: 0 10px 0 10px;
+}
+.offer-box-discount
+{
+    background-color: #a50f82;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+.offer-disc-text
+{
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 1.5;
+}
+.offer-disc-text span
+{
+    font-size: 60px;
+    font-weight: 800;
+    letter-spacing: 5px;
+ }
+.offer-box-form
+{
+    background-color: #fcfbfb;
+}
+.offer-form-contact
+{
+    line-height: 1.5;
+    padding-left: 20px;
+}
+.offer-form-contact input
+{
+    border-radius: 5px;
+    color: #6e6e6e;
+    border: .1px solid #C1C1C1;
+    height: 30px;
+}
+.offer-form-contact button
+{
+    border-radius: 5px;
+    border: none;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #a50f82;
+    color: #fff;
+    text-transform: uppercase;
+    min-width: 175px
+}
+.discount-info
+{
+    color: #6e6e6e;
+    font-size: 10px;
+    text-align: center;
+    margin-top: 20px;
+}
